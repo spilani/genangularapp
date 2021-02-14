@@ -1,0 +1,32 @@
+<h1>Home</h1>
+
+<!-- Attribute Binding-->
+<!--<h1 [class.gray]="h1Style">Home</h1>-->
+
+<!-- Inline CSS through Styles-->
+<!-- <h1 [style.color] = "h1Style ? 'gray' : 'black'">Home</h1> -->
+
+<!-- Multiple Class Binding-->
+<!-- <h1 [ngClass]="{
+    'gray':h1Style,
+    'large':!h1Style
+
+}">Home</h1> -->
+
+<!-- Multiple Style Property Binding-->
+<!-- <h1 [ngStyle] = "{
+    'color': h1Style ?  'gray' : 'black',
+    'font-size': !h1Style ? '1em' : '4em'
+}" >Home</h1> -->
+
+
+
+<!--Event Binding -->
+<!-- <button (click)="firstClick()">Click me</button> -->
+
+<!-- <ul *ngIf="users">
+    <li *ngFor="let user of users.data">
+        <img [src] = "user.avatar">
+        <p>{{user.first_name}}{{user.last_name}}</p>
+    </li>
+</ul> -->
